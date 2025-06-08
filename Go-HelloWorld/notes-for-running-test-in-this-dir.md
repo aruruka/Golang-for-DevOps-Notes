@@ -12,5 +12,5 @@ go run *.go # This starts the simple api server
 1.2 Then run the test client:
 
 ```bash
-go run main.go api_client.go # Make sure `httpGet()` is called in the main function
+go run main.go api_client.go 'http://localhost:8080/words?input=word1' # Make sure `httpGet()` is called in the main function
 ```
