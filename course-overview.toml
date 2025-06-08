@@ -1,0 +1,74 @@
+# Golang for DevOps and Cloud Engineers Course Overview
+
+[course]
+title = "Golang for DevOps and Cloud Engineers"
+instructor = "Edward Viaene"
+instructor_role = "DevOps & Cloud Specialist"
+last_updated = "2024-04"
+has_closed_captions = true
+closed_captions_language = "English"
+
+[instructor]
+name = "Edward Viaene"
+role = "DevOps & Cloud Specialist"
+experience = """
+I've been a System Administrator and full stack developer for over 10 years, the typical profile for
+a DevOps engineer. I've been working in multiple organizations and startups. I've cofounded a
+startup that focusses on applying DevOps and Cloud. I have been training people in newer
+technologies, like Big Data. I've trained a lot of people working in FTSE 100 & S&P 100
+companies. Today I mainly work together with companies to improve their software delivery
+processes, while coaching and teaching on platforms like Udemy.
+"""
+
+[course_description]
+overview = """
+If you are working in the Cloud or DevOps space, then this course is for you. Golang has been
+gaining massively in popularity in the recent years. Forget the small shell scripts you'd write to
+glue things together. You can create real programs with a great programming language created
+by Google. It compiles fast, it runs fast, it has static typing, and it has been used to write popular
+applications like Docker and Kubernetes. It's the best choice to write your next applications in!
+"""
+
+detailed = """
+I'll show you how to write applications to integrate with any third party that has a REST API.
+While I'm explaining you our first program that will make API calls, you'll learn step by step how
+to use Go. Next, I'll show you how to integrate with the AWS API to launch a new instance using
+Go. Not launching instances anymore because you're workload is completely containerized? The
+next section shows you how to use the Kubernetes API using the Kubernetes go-client.
+
+Once you went on to integrate with those technologies, you should be able to write your own Go
+code to integrate with the APIs that you're using within your organization. Happy learning!
+"""
+
+office_hours = "I also answer all questions in the Q&A section and you can reach out to me by direct message. I run weekly office hours if you want to talk to me!"
+
+[updates]
+"2024-04" = "Added how to write a Kubernetes Operator Controller in Go"
+
+[requirements]
+prerequisites = [
+    "Some scripting or programming experience will be a plus, as not every foundational concept will be explained",
+    "If you're planning to use AWS or Kubernetes with Go, you'll need some basic AWS/Kubernetes experience"
+]
+
+[learning_objectives]
+topics = [
+    "Learn Golang basics by example",
+    "Learn how to use Golang as a DevOps or Cloud Engineer with industry specific use-cases",
+    "Learn how to use the AWS Go SDK",
+    "Learn how to use the Azure Go SDK",
+    "Learn how to use the Kubernetes API and Go SDK",
+    "Integrate with GitHub Webhooks in Go",
+    "Write your own Identity Provider (IdP) with OpenID Connect (OIDC)",
+    "Write your own SSH Server and Client in Go",
+    "Create an openssl-alike command line utility to create X.509 Certificates to run an https-secured webserver",
+    "Integrate Let's Encrypt certificates and use mutual TLS (mTLS) between services",
+    "Write your own DNS Server (Resolver) in Go, using only official Golang libraries"
+]
+
+[target_audience]
+for = [
+    "DevOps or Cloud Engineers looking to start using Golang",
+    "Anyone with an interest in Golang",
+    "Anyone who'd like to use Golang to integrate with AWS / Kubernetes / REST APIs"
+]
