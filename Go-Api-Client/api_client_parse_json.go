@@ -1,17 +1,6 @@
 package main
 
-import (
-	"encoding/json"
-	"fmt"
-	"io"
-	"log"
-	"net/http"
-	"net/url"
-	"os"
-	"strings"
-)
-
-type Page struct {
+/* type Page struct {
 	Name string `json:"page"`
 }
 
@@ -22,10 +11,12 @@ type Words struct {
 
 type Occurrence struct {
 	Words map[string]int `json:"words"`
-}
+} */
 
 func main() {
-	args := os.Args
+
+	getHTTPJsonMap()
+	/* args := os.Args
 
 	if len(args) < 2 {
 		fmt.Printf("Usage: ./api-client-parse-json <url>\n")
@@ -89,5 +80,5 @@ func main() {
 		}
 	default:
 		fmt.Printf("Page not found\n")
-	}
+	} */
 }
